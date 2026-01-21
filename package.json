@@ -1,0 +1,25 @@
+{
+  "name": "basic-http-class-example",
+  "version": "1.0.0",
+  "description": "Basic http server",
+  "homepage": "https://github.com/aharkleroad/basic-http-class-example#readme",
+  "bugs": {
+    "url": "https://github.com/aharkleroad/basic-http-class-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aharkleroad/basic-http-class-example.git"
+  },
+  "license": "UNLICENSED",
+  "author": "Aizlynn Harkleroad",
+  "type": "commonjs",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.32.0"
+  }
+}
