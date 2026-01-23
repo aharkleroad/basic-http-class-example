@@ -2,22 +2,9 @@
 <html lang="en">
 <head>
     <title>Our simple HTTP server</title>
-    <style>
-        html, body {
-            height: 100%;
-            width: 100%;
-            margin: 0;
-            padding: 0;
-        }
-        
-        h1 {
-            text-align: center;
-            margin: 0 auto;
-            padding-top: 19%;
-            font-size: 2.6em;
-        }
-        
-    </style>
+    <!-- When done like this, browser requests stylesheet from server, which then tries to send it 
+     to the associated html page unless it is specifically handled -->
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <h1>Our first hosted web page</h1>
